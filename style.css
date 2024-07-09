@@ -1,39 +1,33 @@
-
 body{
-    color: rgb(15, 131, 232);
+    background-color: black;
+    color: red;
+    }
+    .head{
     
-}
-
-.header{
-
-background: gold;
-padding: 20px;
-text-align: center;
-margin-bottom: 10px;
-}
-.content{
-    display: flex;
-    gap: 10px;
-}
-.content aside {
-background:greenyellow;
-width:25%;
-height: 400px;
-display: flex;
-justify-content: center;
-align-items: center;
-
-}
-
-.content div{
-    background:palevioletred;
-    width:75%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.foot{
-    margin-top: 10px;
-}
+    background: yellow;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    }
+    .content{
+        display: flex;
+        height: 400px;
+        gap: 10px;
+    }
+    .child1{
+        background: greenyellow;
+        display: flex;
+        justify-content: center;
+        width: 20%;
+        align-items: center;
+    }
+    .child2{
+        background: blue;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .foot{
+        margin-top: 10px;
+    }
